@@ -4,7 +4,7 @@ This Repository holds my settings vimrc from a programmer perspective. It contai
 Just give it a try and let your thoughts be in the commentary section.
 
 # Install
-`` bash
+``` bash
 git clone https://github.com/kamexX/vim-for-programmer
 cd vim-for-programmer
 mv vimrc ~/.vimrc
