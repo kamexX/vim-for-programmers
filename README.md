@@ -6,7 +6,11 @@ Just give it a try and let your thoughts be in the commentary section.
 # Install
 ``` bash
 git clone https://github.com/kamexX/vim-for-programmer
+
+# to setup the vimrc 
 cd vim-for-programmer
 mv vimrc ~/.vimrc
-chmod 644 script.sh
+
+# to setup the theme: https://draculatheme.com/vim
+chmod 644 vim-dracula-theme.sh
 ```
