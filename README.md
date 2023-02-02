@@ -13,4 +13,5 @@ mv vimrc ~/.vimrc
 
 # to setup the theme: https://draculatheme.com/vim
 chmod 644 vim-dracula-theme.sh
+./vim-dracula-theme.sh
 ```
