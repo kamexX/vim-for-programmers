@@ -11,6 +11,8 @@ git clone https://github.com/kamexX/vim-for-programmer
 cd vim-for-programmer
 mv vimrc ~/.vimrc
 
+# to setup vim-plug: https://github.com/junegunn/vim-plug
+
 # to setup the theme: https://draculatheme.com/vim
 chmod 644 vim-dracula-theme.sh
 ./vim-dracula-theme.sh
