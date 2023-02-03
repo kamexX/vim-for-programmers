@@ -36,3 +36,9 @@ set showmatch
 
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
+
+" install plugins
+call plug#begin() 
+  Plug 'preservim/NERDTree' 
+  Plug 'tribela/vim-transparent' 
+call plug#end()
