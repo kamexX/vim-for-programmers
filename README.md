@@ -17,3 +17,13 @@ mv vimrc ~/.vimrc
 chmod 644 vim-dracula-theme.sh
 ./vim-dracula-theme.sh
 ```
+
+## Vim Plugins
+The plugin manager inside this repository is "vim-plug", you can install it by executing the vim-plug-install.sh. To add a new plugin to vim, you need to append the name of the plugin within the call plug#begin() and call plug#end() section. The name of the plugin is the author and the repository name in GitHub.com. Finally you install all your plugs using 
+``` vim 
+:PlugInstall
+```
+to update your plugin list you call (where plugin-name also can be empty)
+``` vim 
+:PlugUpdate <plugin-name>
+```
