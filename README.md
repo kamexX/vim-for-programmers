@@ -15,8 +15,8 @@ mv vimrc ~/.vimrc
 wget https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim -O  ~/.vim/autoload
 
 # to setup the theme: https://draculatheme.com/vim
-chmod 644 vim-dracula-theme.sh
-./vim-dracula-theme.sh
+git clone https://github.com/dracula/vim.git ~/.vim/pack/themes/start/dracula
+
 ```
 
 ## Vim Plugins
