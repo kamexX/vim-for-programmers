@@ -12,7 +12,7 @@ git clone https://github.com/kamexX/vim-for-programmer /tmp/vim-for-programmer
 mv /tmp/vim-for-programmer/vimrc ~/.vimrc
 
 # to setup vim-plug: https://github.com/junegunn/vim-plug
-wget https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim -O  ~/.vim/autoload
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # to setup the theme: https://draculatheme.com/vim
 git clone https://github.com/dracula/vim.git ~/.vim/pack/themes/start/dracula
