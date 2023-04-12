@@ -9,7 +9,7 @@ Just give it a try and let your thoughts be in the commentary section.
 git clone https://github.com/kamexX/vim-for-programmer /tmp/vim-for-programmer
 
 # to setup the vimrc 
-mv /tmp/vim-for-programmer/vimrc ~/.vimrc
+cp /tmp/vim-for-programmer/vimrc ~/.vimrc
 
 # to setup vim-plug: https://github.com/junegunn/vim-plug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
