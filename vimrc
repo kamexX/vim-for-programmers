@@ -37,6 +37,12 @@ set showmatch
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
 
+
+" enable dracula theme
+packadd! dracula
+syntax enable
+colorscheme dracula
+
 " install plugins
 call plug#begin() 
   Plug 'preservim/NERDTree' 
