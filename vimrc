@@ -34,6 +34,9 @@ set cursorline
 " show the matching part of the pair for [] {} and ()
 set showmatch
 
+" syntax hightlight at word searching
+set hlsearch
+
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
 
