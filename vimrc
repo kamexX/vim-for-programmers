@@ -50,3 +50,8 @@ call plug#begin()
   Plug 'preservim/NERDTree' 
   Plug 'tribela/vim-transparent' 
 call plug#end()
+
+
+" KEYMAPS
+map <F5> :NERDTreeToggle<CR>
+
