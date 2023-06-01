@@ -37,6 +37,10 @@ set showmatch
 " syntax hightlight at word searching
 set hlsearch
 
+" copy with y to clipboard
+set clipboard=unnamedplus
+
+
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
 
